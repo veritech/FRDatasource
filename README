@@ -1,0 +1,10 @@
+FRDataSource & FRRemoteDataSource
+=================================
+
+Simple set of classes for creating UITableViewDataSource complatible classes in a heartbeat.
+
+You can use FRDataSource without subclassing if you like, or you can be more hardcore and subclass it.
+
+As for FRRemoteDataSource, It purpose is to encapsulate code that calls a remote source (ie a webservice) and provides callbacks to notify the UI code when the data has been processed i originally setup to post notifications, but opted for a simple delegate protocol. 
+
+
