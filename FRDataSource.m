@@ -18,20 +18,11 @@
 //The init
 -(id) init{
 	
-	if( self = [super init] ){
+	if( (self = [super init]) ){
 		_collection = nil;
 	}
 	
 	return self;
-}
-
--(NSMutableArray*) collection{
-	
-	if( !_collection ){
-		_collection = [[NSMutableArray alloc] init];
-	}
-	
-	return _collection;
 }
 
 //Overide this method to output simple strings in your table view

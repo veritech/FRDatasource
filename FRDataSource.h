@@ -9,10 +9,10 @@
 
 
 @interface FRDataSource : NSEnumerator <UITableViewDataSource> {
-	@private NSMutableArray* _collection;
+	@private NSArray* _collection;
 }
 
-@property (retain, nonatomic) NSMutableArray* collection;
+@property (retain, nonatomic) NSArray* collection;
 
 //Override in the subclasses 
 -(NSString*) displayStringForObject:(id) object;
